@@ -1,0 +1,18 @@
+﻿  
+  C:\Users\jskrz\Desktop\PROJEKT WSP\KNN Handwriting Recognition\KNN Handwriting Recognition>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\jskrz\Desktop\PROJEKT WSP\KNN Handwriting Recognition\KNN Handwriting Recognition\kernel.cu" -clean 
+  kernel.cu
+  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\jskrz\Desktop\PROJEKT WSP\KNN Handwriting Recognition\KNN Handwriting Recognition>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\jskrz\Desktop\PROJEKT WSP\KNN Handwriting Recognition\KNN Handwriting Recognition\kernel.cu" 
+C:/Users/jskrz/Desktop/PROJEKT WSP/KNN Handwriting Recognition/KNN Handwriting Recognition/kernel.cu(133): warning : variable "match_num" was declared but never referenced
+C:/Users/jskrz/Desktop/PROJEKT WSP/KNN Handwriting Recognition/KNN Handwriting Recognition/kernel.cu(133): warning : variable "match_num" was declared but never referenced
+  kernel.cu
+C:/Users/jskrz/Desktop/PROJEKT WSP/KNN Handwriting Recognition/KNN Handwriting Recognition/kernel.cu(179): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/jskrz/Desktop/PROJEKT WSP/KNN Handwriting Recognition/KNN Handwriting Recognition/kernel.cu(200): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:/Users/jskrz/Desktop/PROJEKT WSP/KNN Handwriting Recognition/KNN Handwriting Recognition/kernel.cu(235): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+  KNN Handwriting Recognition.vcxproj -> C:\Users\jskrz\Desktop\PROJEKT WSP\KNN Handwriting Recognition\x64\Debug\KNN Handwriting Recognition.exe
+  KNN Handwriting Recognition.vcxproj -> C:\Users\jskrz\Desktop\PROJEKT WSP\KNN Handwriting Recognition\x64\Debug\KNN Handwriting Recognition.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "C:\Users\jskrz\Desktop\PROJEKT WSP\KNN Handwriting Recognition\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart32_90.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart64_90.dll
+          2 file(s) copied.
